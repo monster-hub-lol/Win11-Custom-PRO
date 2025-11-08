@@ -12,3 +12,4 @@ Clear-Host
 if (Get-Command fastfetch -ErrorAction SilentlyContinue) {
     fastfetch -c "C:/Users/%USERPROFILE%/.config/fastfetch/config.jsonc"
 }
+oh-my-posh init pwsh --config ~/atomic.omp.json | Invoke-Expression
