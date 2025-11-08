@@ -53,7 +53,7 @@ Get-PoshThemes
 To set a theme (example: paradox):
 
 ```powershell
-oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\paradox.omp.json" | Invoke-Expression
+oh-my-posh init pwsh --config ~/atomic.omp.json | Invoke-Expression
 ```
 Once you find your favorite, add that command permanently inside your profile file.
 
