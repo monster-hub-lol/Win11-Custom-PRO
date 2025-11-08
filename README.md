@@ -8,7 +8,7 @@ Oh My Posh adds colorful and informative themes to your PowerShell prompt.
 
 📦 Installation (via Winget)
 ```powershell
-winget install JanDeDobbeleer.OhMyPosh -s winget
+winget install JanDeDobbeleer.OhMyPosh --source winget
 ```
 ## ⚡ 2. Install Fastfetch
 Fastfetch displays beautiful system information directly in your terminal — similar to Neofetch but faster.
